@@ -7,7 +7,7 @@ def buyandsell(prices):
     while right<len(prices):
         if prices[right]>prices[left]:
             if prices[right]-prices[left]>profit:
-                profit=prices[left]-prices[right]
+                profit=prices[right]-prices[right]
         else:
             left=right
         right+=1
